@@ -18,7 +18,6 @@ if (isset($_COOKIE['orders'])) {
 } else {
     $orders = [];
 }
-
 $orders[$id] = $order;
 
 setcookie('last-order-id', $id);

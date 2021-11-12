@@ -13,7 +13,6 @@ foreach ($requiredFields as $field) {
         }
     }
 }
-
 if(!empty($errors)) {
     setcookie('fields', json_encode($_POST, JSON_UNESCAPED_UNICODE));
     setcookie('validationErrors', json_encode($errors, JSON_UNESCAPED_UNICODE));

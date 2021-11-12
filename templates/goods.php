@@ -31,6 +31,7 @@
                 }
             }
         }
+
         usort($goods, "sortPrice");
     }
     ?>
@@ -66,7 +67,6 @@
     ?>
     <a href="?sort=asc&page=goods">max<br></a>
     <?php
-
 
 
     foreach ($goods as $good): ?>

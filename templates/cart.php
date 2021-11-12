@@ -104,7 +104,7 @@ foreach ($cart as $key => $item):
             <button class="shopUnitDelete" style="position: absolute; left: -9999px; width: 1px; height: 1px;"
             ">количество</button>
         </form>
-        <!-- --><?php //var_dump($item)
+        <!-- --><?php
         ?>
     </div>
 

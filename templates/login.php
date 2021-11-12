@@ -94,7 +94,6 @@ if (isset($_COOKIE['fields'])) {
                 <!--                </label>-->
                 <input type="submit" class="btn" value="подтвердить">
                 <!--                <a href="index.php?page=goods" type="submit" class="btn">подтвердить </a>-->
-
             </form>
 
         </div>
